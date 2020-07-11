@@ -68,3 +68,27 @@ article p {
   margin-top: 0px;
   margin-left: 50px;
 }
+
+article p.next-to-aside {
+  width: 500px;
+}
+
+article > section figure {
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+
+article > section > menu {
+  margin-left: 120px;
+}
+
+aside p {
+  position: relative;
+  left: 0px;
+  top: -100px;
+  z-index: 1;
+  width: 200px;
+  float: right;
+  font-style: italic;
+  color: #99f;
+}
