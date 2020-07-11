@@ -106,3 +106,10 @@ article > section div.no-html5-video {
   font-weight: bold;
   background-color: #99f;
 }
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 24px;
+}
